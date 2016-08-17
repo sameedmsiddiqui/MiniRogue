@@ -2,7 +2,7 @@
 
 Emulation of UNIX's text-based Rogue game. This game can be compiled with gcc on a Unix-based system or on Visual Studio on Windows. 
 
-* (Note that the most interesting files to read in the project are 'Goblin.cpp', 'Dungeon.cpp', 'Game.cpp', and 'Player.cpp')
+* (Note that the most interesting files to read in the project are 'Goblin.cpp', 'Dungeon.cpp', 'Game.cpp', and 'Player.cpp'. A pre-compiled file 'Minirogue Compiled.exe' is available for Windows systems)
 
 
 The player (represented by an '@' sign) is displayed in some position in a randomly-generated dungeon map. The player works his or her way through the maze, battling monsters, finding treasures, and descendind down staircases to descend lower into the dungeon. When the player reaches the bottom of the dungeon, he or she can scavenge for the golden idol. The player wins the game instantly when the golden idol is picked up.
