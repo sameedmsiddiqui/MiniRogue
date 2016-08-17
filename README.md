@@ -28,34 +28,7 @@ In addition to monsters, there are:
   * A scroll of raise strength (when read, makes a player's blows more effective)
   * A scroll of enhance health (when read, raises maximum hit points)
   * A scroll of enhance dexterity (when read, makes it more likely the player will hit an opponent )
-  
 
-
-
-Here is an example of what the game display might look like:
-
-######################################################################
-######################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######################
-######################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspB&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
-######################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbspG&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp)&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
-######################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS&nbsp&nbsp&nbsp######
-#####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp?D&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp#######&nbsp&nbsp&nbsp&nbsp&nbsp&nbspG&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
-#####&nbsp>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp####&nbspB&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######&nbsp&nbsp########&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
-#####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspD&nbsp&nbsp&nbsp&nbsp&nbsp####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###########&nbsp&nbsp############
-#####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp)&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp@&nbsp&nbsp&nbsp&nbsp###########&nbsp&nbsp############
-#####&nbsp&nbsp&nbspG&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###########&nbsp&nbsp############
-#####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###################&nbspD&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###########&nbsp&nbsp############
-#####################################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###########&nbsp&nbsp############
-#####################################&nbsp&nbsp&nbspS&nbsp&nbsp&nbsp&nbsp&nbsp########&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
-######################################################&nbsp?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
-######################################################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
-######################################################################
-######################################################################
-######################################################################
-
-Dungeon Level: 3, Hit points: 10, Armor: 3, Strength: 2, Dexterity: 2
-Player slashes short sword at the Dragon and misses.
-the Dragon swings long sword at Player and misses.
 
 To control the player in the game, you issue commands from the keyboard. 
 
