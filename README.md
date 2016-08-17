@@ -33,24 +33,26 @@ In addition to monsters, there are:
 
 
 Here is an example of what the game display might look like:
+
 ######################################################################
-######################            ##            ######################
-######################          B ##            ##              ######
-######################            ##  G               )         ######
-######################            ##            ##          S   ######
-#####             ####         ?D          #######      G       ######
-##### >           #### B          ######  ########              ######
-#####       D     ####            ##         ###########  ############
-#####              S        )     ##    @    ###########  ############
-#####   G         ###################        ###########  ############
-#####             ################### D      ###########  ############
-#####################################        ###########  ############
-#####################################   S     ########          ######
-###################################################### ?        ######
-######################################################          ######
+######################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######################
+######################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspB&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
+######################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbspG&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp)&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
+######################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS&nbsp&nbsp&nbsp######
+#####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp?D&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp#######&nbsp&nbsp&nbsp&nbsp&nbsp&nbspG&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
+#####&nbsp>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp####&nbspB&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######&nbsp&nbsp########&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
+#####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspD&nbsp&nbsp&nbsp&nbsp&nbsp####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###########&nbsp&nbsp############
+#####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspS&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp)&nbsp&nbsp&nbsp&nbsp&nbsp##&nbsp&nbsp&nbsp&nbsp@&nbsp&nbsp&nbsp&nbsp###########&nbsp&nbsp############
+#####&nbsp&nbsp&nbspG&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###########&nbsp&nbsp############
+#####&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###################&nbspD&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###########&nbsp&nbsp############
+#####################################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp###########&nbsp&nbsp############
+#####################################&nbsp&nbsp&nbspS&nbsp&nbsp&nbsp&nbsp&nbsp########&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
+######################################################&nbsp?&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
+######################################################&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp######
 ######################################################################
 ######################################################################
 ######################################################################
+
 Dungeon Level: 3, Hit points: 10, Armor: 3, Strength: 2, Dexterity: 2
 Player slashes short sword at the Dragon and misses.
 the Dragon swings long sword at Player and misses.
