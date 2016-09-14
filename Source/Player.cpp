@@ -14,8 +14,8 @@ std::string Player::move(int direction){
 			change_hp_by(1);
 	change_sleep(-1);
 
-	int r = p_r();
-	int c = p_c();
+	int r = p_r(); // row coordinate
+	int c = p_c(); // column coordinate
 
 
 	switch(direction){
@@ -36,14 +36,16 @@ std::string Player::move(int direction){
 	}
 	
 	string msg = "";
-
+	
 	if(dungeon()->at_pos(r,c) == ' ' || dungeon()->at_pos(r,c) == ')' || dungeon()->at_pos(r,c) == '>' || dungeon()->at_pos(r,c) == '?' || dungeon()->at_pos(r,c) == '&' ){
+		// if the new position is legal, move the player there and change the map display accordingly
 		dungeon()->setMap(p_r(),p_c(), ' ');
 		set_pos(r, c);
 		dungeon()->setMap(p_r(),p_c(), 'P');
 		return "";
 	}
 	else if(dungeon()->at_pos(r,c) == 'B' || dungeon()->at_pos(r,c) == 'D' || dungeon()->at_pos(r,c) == 'S' || dungeon()->at_pos(r,c) == 'G'){
+		// if the new position is a monster, that means we attack the monster
 		int i = 0;
 		for (; i < dungeon()->Actors().size(); i++)
 			if (dungeon()->Actors()[i]->p_c() == c && dungeon()->Actors()[i]->p_r() == r)
@@ -82,8 +84,8 @@ std::string Player::view_inventory(char ch){
 		}
 	}
 
-	if (valid){
-		if (ch == 'w'){
+	if (valid){ // if the user entered a valid alphabet character
+		if (ch == 'w'){ // if the user wanted to weild that inventory item
 			Weapon* wp = dynamic_cast<Weapon*>(inventory[index]);
 			if (wp != nullptr){
 				set_weapon(wp);
@@ -93,7 +95,7 @@ std::string Player::view_inventory(char ch){
 				msg = msg + "You can't wield a " + inventory[index]->name() + "\n";
 			}
 		}
-		else if (ch == 'r'){
+		else if (ch == 'r'){ // if the user wanted to read that inventory item
 			Scroll* sp = dynamic_cast<Scroll*>(inventory[index]);
 			if (sp != nullptr){
 				sp->read(this);
@@ -115,6 +117,7 @@ std::string Player::view_inventory(char ch){
 std::string Player::pickup_object(){
 
 	int i = 0;
+	// figure out the object ID that the player wants to pick up
 	for (; i < dungeon()->Objects().size(); i++){
 		if (dungeon()->Objects()[i]->p_c() == p_c() && dungeon()->Objects()[i]->p_r() == p_r()){
 			break;
@@ -151,7 +154,7 @@ std::string Player::pickup_object(){
 }
 
 bool Player::pick_stairs(){
-
+	// used to change levels
 	int i = 0;
 	for (; i < dungeon()->Objects().size(); i++){
 		if (dungeon()->Objects()[i]->p_c() == p_c() && dungeon()->Objects()[i]->p_r() == p_r()){
