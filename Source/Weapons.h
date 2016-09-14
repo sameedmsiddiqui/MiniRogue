@@ -7,6 +7,7 @@
 class Weapon : public Object{
 public:
 	Weapon(std::string n, int r, int c, int dex, int dam, std::string attack_text) : Object(n, ')', r, c), dext(dex), damg(dam), attack_call(attack_text){;}
+		// r and c are the row and column, respectively, where the weapon is to be displayed
 	virtual ~Weapon(){;}
 	int dexterity() const{ return dext;}
 	int damage() const {return damg;}
