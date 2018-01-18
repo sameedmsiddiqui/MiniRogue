@@ -2,7 +2,7 @@
 
 Emulation of UNIX's text-based Rogue game. This game can be compiled with gcc on a Unix-based system or on Visual Studio on Windows. 
 
-* **(Note that the most interesting files to read in the project are 'Goblin.cpp', 'Actors.cpp', 'Game.cpp', and 'Player.cpp'. A pre-compiled file 'Minirogue Compiled.exe' is available for Windows systems)**
+* **(Note that the most interesting files to read in the project are 'Game.cpp', 'Monsters.cpp', 'Goblin.cpp', and 'Player.cpp'. A pre-compiled file 'Minirogue Compiled.exe' is available for Windows systems)**
 
 
 
